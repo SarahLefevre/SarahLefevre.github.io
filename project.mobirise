@@ -1,10 +1,10 @@
 {
   "settings": {
     "name": "Sarah Lefèvre Website",
-    "currentPage": "page15.html",
+    "currentPage": "home.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 187,
-    "versionPublish": "4.4.1",
+    "versionPublish": "4.7.7",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -47,7 +47,9 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /assets/images\n\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "",
-    "sitemapSwitcherAuto": "on"
+    "sitemapSwitcherAuto": "on",
+    "path": "@PROJECT_PATH@",
+    "siteFonts": []
   },
   "pages": {
     "contact.html": {
@@ -88,7 +90,7 @@
             }
           },
           "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc-0224-kopie-3.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">&nbsp;<br>CONTACT</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">If you have questions or requests, please contact me&nbsp;<br>E-mail: sarahlefevre32@gmail.com<br>Exhibitons: \"Buren bij kunstenaars 2017\"</p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"https://www.facebook.com/sarah.lefevre.505\">FACEBOOK</a> <a class=\"btn btn-md btn-black\" href=\"https://www.instagram.com/sarah.lefevre/\">INSTAGRAM</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc-0224-kopie-3.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">&nbsp;<br>CONTACT</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">If you have questions or requests, please contact me&nbsp;<br>E-mail: sarahlefevre32@gmail.com<br>Exhibitons: \"Buren bij kunstenaars 2017\"</p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"https://www.facebook.com/sarah.lefevre.505\" data-app-placeholder=\"Type Text\">FACEBOOK</a> <a class=\"btn btn-md btn-black\" href=\"https://www.instagram.com/sarah.lefevre/\" data-app-placeholder=\"Type Text\">INSTAGRAM</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qBwLNCriql",
           "_anchor": "header9-16",
           "_protectedParams": [],
@@ -722,7 +724,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mg-9446-800x640.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Pike, ...x...",
+                "caption": "Pike 1 (original studies)",
                 "active": false
               },
               {
@@ -734,7 +736,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mg-9447-800x990.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 2 (original studies)",
                 "active": false
               },
               {
@@ -746,7 +748,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7381-692x1199.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 3 (detail)",
                 "active": false
               },
               {
@@ -758,7 +760,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7382-720x1251.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 4 (color expiriment)",
                 "active": false
               },
               {
@@ -770,7 +772,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7383-800x1112.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 5 (dark atmosphere)",
                 "active": false
               },
               {
@@ -782,7 +784,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7384-800x1016.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 6 (light atmosphere)",
                 "active": false
               },
               {
@@ -794,7 +796,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7412-487x782.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Pike 7, 80x130",
                 "active": false
               },
               {
@@ -806,7 +808,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/24098847-1556390771115086-2016951704-n-1-492x786.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Owls eye (study)",
                 "active": false
               },
               {
@@ -818,7 +820,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-6330-800x1031.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Owl in a tree",
                 "active": false
               },
               {
@@ -830,7 +832,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-6245-800x1319.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Before the flight,&nbsp;",
+                "caption": "Owl, before flight",
                 "active": false
               },
               {
@@ -842,7 +844,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-439-800x566.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Kestrel",
                 "active": true
               }
             ]
@@ -1445,7 +1447,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#9a2241\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     uitleg over de start van het onderwerp en waar ik naartoe wil</div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#9a2241\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     This topic stems more from my love for animals. I am, as many people are, very fascinated by their animalistic ways and lifestyles. I tried to fixate myself on stuffed animals, because I was still obsessed with detail and correctness. I wanted everything on my paintings to be the way it is in real life. Like the great masters of painting did before our generation.</div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>Later I focussed on one particular animal (a stuffed pike) and started experimenting. I played around with color, texture and atmosphere. I repainted the same fish more than a handfull to completly understand the animal and figure out how I wanted to portray it. These paintings are listed in a gallery on the bottom of the page.</div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCbBY71t48",
           "_anchor": "content3-2u",
           "_protectedParams": [],
@@ -3043,7 +3045,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-230-800x745.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Dolls pt. 3,, ?",
+                "caption": "Dolls pt. 3, 50x60",
                 "active": false
               },
               {
@@ -3079,7 +3081,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-221-800x546.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Summer garden,&nbsp;",
+                "caption": "Summer garden, 60x100",
                 "active": false
               },
               {
@@ -3115,7 +3117,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/24099118-1556390777781752-1521992650-n-1-627x906.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Selfportrait,&nbsp;",
+                "caption": "Selfportrait, 27x45",
                 "active": false
               },
               {
@@ -3187,7 +3189,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-472-800x537.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Sleeping beauty",
+                "caption": "Sleeping beauty, 65x110",
                 "active": false
               },
               {
@@ -3199,7 +3201,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-473-800x767.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Grandfather with child, sculpting",
+                "caption": "Grandfather with child, sculpting (A3)",
                 "active": false
               },
               {
@@ -3211,7 +3213,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-474-800x787.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Grandfather with child, storytime",
+                "caption": "Grandfather with child, storytime (A3)",
                 "active": false
               },
               {
@@ -3223,7 +3225,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-475-799x1121.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Greetje",
+                "caption": "Greetje (A3)",
                 "active": true
               }
             ]
@@ -3856,7 +3858,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#d64413\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>When I first started thinking about this topic,&nbsp;</p><p>omdat ik lesgeef aan kinderen van die leeftijd breng ik er veel tijd mee door. ik heb al ontdekt dat alles voor hun opgeblazen wordt. ze vinden de meest onbenullige dingen spectaculair of absoluut onbenullig. bijvoorbeeld als iemand anders een snoepje heeft gekregen in een andere smaak, kan een kind van die leeftijd helemaal devastated zijn. dit intrigeerde mij heel erg. daarom wilde ik een soort 'nostalgie' reeks maken van werken waarvan de bedoeling is dat je in het werk getrokken wordt alsof je zelf nog een kind bent. of aan de andere kant dat je deze kinderen ziet en nadenkt over hoe onschuldig ze zijn. daarom koos ik er ook voor om meisjes te fotograferen en schilderen want dit heeft net nog een tikkeltje meer het soort effect dat ik wou bereiken.&nbsp;</p><p>-&gt; ekfrasis verwerken in de site!!!!!!</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#d64413\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>When I first started thinking about this topic, there were many things that interested me.&nbsp;<span style=\"font-size: 1.2rem;\">Because I teach ballet classes to children of that age, I spend a lot of time with them. I have already dicovered that everything is blown up for them. They find the most trivial things spectacular or absolutely insignificant. If someone else has received a candy in a different taste, it's a very big deal to them. This intrigued me very much. That's why I wanted to create some kind of 'nostalgia' pieces. The nature is that you're drawn into the work as if you were still a child. &nbsp;You will see these children and think about how innocent they are. That's why I also chose to photograph and paint, this helps the kind of effect that I wanted to achieve.</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qF7LOycGSp",
           "_anchor": "content1-3x",
           "_protectedParams": [],
@@ -6106,7 +6108,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-6240-800x789.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "MSK Work; naam schilder, Study",
+                "caption": "Study (soft pastel)",
                 "active": false
               },
               {
@@ -6142,7 +6144,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7781-800x981.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Selfportrait study",
                 "active": false
               },
               {
@@ -6154,7 +6156,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/24133504-1556390917781738-1161351054-n-1-666x930.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Faces study (graphic pencil)",
                 "active": false
               },
               {
@@ -6166,7 +6168,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7794-800x1003.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Naked model (ink)",
                 "active": false
               },
               {
@@ -6178,7 +6180,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-7651-800x1271.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "Naked model (charcaol)",
                 "active": true
               }
             ]
