@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 116,
+    "uniqCompNum": 122,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -638,7 +638,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "About",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1296,7 +1296,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Inspiration",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1745,7 +1745,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><span style=\"font-size: 1rem;\">In her opinion, finding inspiration is something that you learn. Most people believe that no idea can be original because in all these years, it must've already been thought of by someone else. Sarah was a firm believer of this concept aswell, until she spend some time around other artists. When you do this, you start to see the world differently. You learn to look at everything around you and notice things that others do not see. Simple things, like a single beam of light that enters through the window or the smallest corner that has been slit off a cupboard, can give you inspiration for a new work of art. Therefor, looking at other artist and their work can be one of the greatest forms of inspiration for a young mind. They teach you about the practical part of painting, about style and colour and also show you a way into their mindset. </span><span style=\"font-size: 1rem;\">Below you can find some examples of moments, images and artists that have inspired her so far on her journey in the artworld.&nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><span style=\"font-size: 1rem;\">In her opinion, finding inspiration is something that you learn. Most people believe that no idea can be original because in all these years, it must've already been thought of by someone else. Sarah was a firm believer of this concept aswell, until she spend some time around other artists. When you do this, you start to see the world differently. You learn to look at everything around you and notice things that others do not see. Simple things, like a single beam of light that enters through the window or the smallest corner that has been slit off a cupboard, can give you inspiration for a new work of art. Therefor, looking at other artist and their work can be one of the greatest forms of inspiration for a young mind. They teach you about the practical part of painting, about style and colour and also show you a way into their mindset. </span></p><p><span style=\"font-size: 1rem;\"><br></span><span style=\"font-size: 1rem;\">Below you can find some examples of moments, images and artists that have inspired her so far on her journey in the artworld.&nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rbEUkYPwZK",
           "_anchor": "content1-1b",
           "_protectedParams": [],
@@ -1823,7 +1823,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rbEeWO27AI",
           "_anchor": "gallery1-19",
           "_protectedParams": [
@@ -1863,19 +1863,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Henri Vuillard - Nude Study",
-                "active": false
-              },
-              {
-                "tags": "Bewegende",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/joseph-kosuth-1500x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/joseph-kosuth-1500x900-800x480.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Joseph Kosuth - 3 chairs",
                 "active": false
               },
               {
@@ -1941,20 +1928,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sunset sky in Bangkok&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Bewegende",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-12-09-om-16.31.44.png",
-                "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-12-09-om-16.31.44-800x416.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "David Lynch - Ricky Board",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Bewegende",
@@ -2006,10 +1980,191 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Colours of the riverbank in the summer",
-                "active": true
+                "active": false
               }
             ]
           }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Language and Art</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    inspirat</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rkp00mePOV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-3b"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Language is a very powerful tool. It gives expression to our experiences, it creates a way to meet with someone else, i<span style=\"font-size: 1rem;\">t can unconsciously shape our perception and reality.&nbsp;</span><span style=\"font-size: 1rem;\">In this way, language can be a huge contribution to an artpiece. It could move or influence the spectator even more.&nbsp;</span><span style=\"font-size: 1rem;\">Currently, Sarah is researching how to insert words and sentences on a painting to give her art that extra push.&nbsp;</span></p><p>Below you can find some artists who ispire Sarah to incorporate language into her work.&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rkoZX2JpEh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-3a"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rkp08ztPtS",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-12-09-om-16.31.44.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-12-09-om-16.31.44-800x416.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<br>David Lynch - Ricky Board",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/tracey-emin-limited-edition-print-1242u.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tracey-emin-limited-edition-print-1242u-800x620.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tracey Emin - She Lay Down Deep Beneath the Sea",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2019-03-11-om-11.11.19.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2019-03-11-om-11.11.19-584x822.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Laure Prouvost - AM-BIG-YOU-US LEGSICON",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/joseph-kosuth.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/joseph-kosuth-800x480.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Joseph Kosuth - 3 chairs",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-3c"
         },
         {
           "_styles": {
@@ -2102,7 +2257,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Work",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2666,7 +2821,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Paintings",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3782,7 +3937,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Soft pastel",
-        "order": 8
+        "order": 6
       },
       "components": [
         {
@@ -4508,7 +4663,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Sketches",
-        "order": 9
+        "order": 7
       },
       "components": [
         {
@@ -5764,7 +5919,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Contact",
-        "order": 14
+        "order": 8
       },
       "components": [
         {
